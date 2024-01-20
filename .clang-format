@@ -1,0 +1,52 @@
+BasedOnStyle: Google
+Language: Cpp
+Standard: Auto
+
+UseTab: Never
+TabWidth: 4
+IndentWidth: 4
+ContinuationIndentWidth: 4
+ColumnLimit: 120
+
+AlignAfterOpenBracket: false
+AllowAllParametersOfDeclarationOnNextLine: true
+BinPackArguments: true
+BinPackParameters: true
+ExperimentalAutoDetectBinPacking: true
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: true
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: false
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeCatch: true
+  BeforeElse: true
+
+IncludeCategories:
+  - Regex: '^".*' #internal
+    Priority: 1
+  - Regex: '^<.*/' #system nested
+    Priority: 2
+  - Regex: '<([A-Za-z0-9\/-_]+>)' #headers without <>
+    Priority: 3
+
+AccessModifierOffset: -4
+DerivePointerAlignment: false
+PointerAlignment: Left
+
+BreakConstructorInitializersBeforeComma: true
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+ConstructorInitializerIndentWidth: 4
+
+AlwaysBreakBeforeMultilineStrings: false
+PenaltyBreakString: 100
+AllowShortBlocksOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
+SpacesBeforeTrailingComments: 1

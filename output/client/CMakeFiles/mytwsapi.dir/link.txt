@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++20 -std=c++20 -shared -Wl,-soname,libmytwsapi.so -o libmytwsapi.so CMakeFiles/mytwsapi.dir/EClient.cpp.o CMakeFiles/mytwsapi.dir/EReader.cpp.o 

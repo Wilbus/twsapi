@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
 add_library(${PROJECT_NAME} SHARED
-    #${CMAKE_CURRENT_LIST_DIR}/trading-api/charting/src/CandleStick.cpp
     ${CMAKE_CURRENT_LIST_DIR}/EClient.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/EReader.cpp
 )
 
 target_include_directories(mytwsapi PUBLIC
