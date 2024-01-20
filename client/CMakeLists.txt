@@ -9,6 +9,7 @@ add_library(${PROJECT_NAME} SHARED
     ${CMAKE_CURRENT_LIST_DIR}/EReader.cpp
     ${CMAKE_CURRENT_LIST_DIR}/EClientSocket.cpp
     ${CMAKE_CURRENT_LIST_DIR}/EReaderOSSignal.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/EMutex.cpp
 )
 
 target_include_directories(mytwsapi PUBLIC
