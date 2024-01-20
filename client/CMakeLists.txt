@@ -37,6 +37,7 @@ target_include_directories(mytwsapi PUBLIC
 
 
 
-target_compile_options(${PROJECT_NAME} PRIVATE -Wall -Wextra -Wfatal-errors -Wunused-parameter -Wunused-variable -DLOG_FORMAT_VERIFICATION)
+target_compile_options(mytwsapi PRIVATE -Wall -Wextra -Wfatal-errors -Wunused-parameter -Wunused-variable -DLOG_FORMAT_VERIFICATION)
 
-#target_link_libraries(${PROJECT_NAME} ${CMAKE_CURRENT_LIST_DIR}/lib/libbid.so)
+#get the libintelrdfpmath-dev_2.0u2-6_amd64.deb package and install first
+target_link_libraries(mytwsapi /usr/lib/x86_64-linux-gnu/libbidgcc000.a)
