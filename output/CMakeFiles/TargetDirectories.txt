@@ -1,5 +1,0 @@
-/datadisk0/sambashare0/coding/mytwsapi/output/CMakeFiles/edit_cache.dir
-/datadisk0/sambashare0/coding/mytwsapi/output/CMakeFiles/rebuild_cache.dir
-/datadisk0/sambashare0/coding/mytwsapi/output/client/CMakeFiles/mytwsapi.dir
-/datadisk0/sambashare0/coding/mytwsapi/output/client/CMakeFiles/edit_cache.dir
-/datadisk0/sambashare0/coding/mytwsapi/output/client/CMakeFiles/rebuild_cache.dir
