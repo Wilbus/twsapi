@@ -5,19 +5,30 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
 add_library(${PROJECT_NAME} SHARED
-    ${CMAKE_CURRENT_LIST_DIR}/EClient.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/EReader.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/EClientSocket.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/EReaderOSSignal.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/EMutex.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/ESocket.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/EMessage.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/EDecoder.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/SoftDollarTier.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/Utils.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/ContractCondition.cpp
     ${CMAKE_CURRENT_LIST_DIR}/Decimal.cpp
-    ${CMAKE_CURRENT_LIST_DIR}/OrderCondition.cpp
     ${CMAKE_CURRENT_LIST_DIR}/DefaultEWrapper.cpp
+
+    ${CMAKE_CURRENT_LIST_DIR}/EClient.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/EClientSocket.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/EDecoder.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/EMessage.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/EMutex.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/EOrderDecoder.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/EReader.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/EReaderOSSignal.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/ESocket.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/executioncondition.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/MarginCondition.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/OperatorCondition.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/OrderCondition.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/PercentChangeCondition.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/PriceCondition.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/SoftDollarTier.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/StdAfx.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/TimeCondition.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Utils.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/VolumeCondition.cpp
 )
 
 target_include_directories(mytwsapi PUBLIC
