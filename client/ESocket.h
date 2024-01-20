@@ -7,6 +7,7 @@
 
 #include "ETransport.h"
 
+#include <stdlib.h>
 #include <vector>
 
 class ESocket : public ETransport

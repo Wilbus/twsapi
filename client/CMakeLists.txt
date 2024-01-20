@@ -10,6 +10,14 @@ add_library(${PROJECT_NAME} SHARED
     ${CMAKE_CURRENT_LIST_DIR}/EClientSocket.cpp
     ${CMAKE_CURRENT_LIST_DIR}/EReaderOSSignal.cpp
     ${CMAKE_CURRENT_LIST_DIR}/EMutex.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/ESocket.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/EMessage.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/EDecoder.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/SoftDollarTier.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Utils.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Decimal.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/OrderCondition.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/DefaultEWrapper.cpp
 )
 
 target_include_directories(mytwsapi PUBLIC

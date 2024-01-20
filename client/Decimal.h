@@ -5,6 +5,8 @@
 #ifndef TWS_API_CLIENT_DECIMAL_H
 #define TWS_API_CLIENT_DECIMAL_H
 
+#include <string>
+
 // Decimal type
 typedef unsigned long long Decimal;
 
