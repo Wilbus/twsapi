@@ -5,6 +5,7 @@
 #ifndef TWS_API_CLIENT_DECIMAL_H
 #define TWS_API_CLIENT_DECIMAL_H
 
+#include <climits>
 #include <string>
 
 // Decimal type
